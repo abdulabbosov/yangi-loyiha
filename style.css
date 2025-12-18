@@ -1,0 +1,43 @@
+body
+{
+    background: aqua;
+}
+
+#box {
+    display: grid;
+    width: 400px;
+    grid-template: repeat(4, 1fr) /  repeat(4, 1fr);
+    margin-left: 550px;
+}
+
+#box > span {
+    border: 1px solid aqua;
+    padding: 4px;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: dodgerblue;
+    color: yellow;
+    cursor: pointer;
+   padding: 4px;
+   font-size: 20px;
+   font-family: 'Permanent Marker', cursive;
+   font-weight: 700;
+   min-width: 20px;
+
+}
+#mathProblem
+{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: yellow;
+    background: dodgerblue;
+    width: 450px;
+    height: 150px;
+    align-items: center;
+    margin-left: 520px;
+    border-radius: 30px;
+    font-family: 'Permanent Marker', cursive; 
+}
