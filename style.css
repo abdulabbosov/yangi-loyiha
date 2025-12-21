@@ -5,13 +5,14 @@ body
 
 #box {
     display: grid;
+   
     width: 400px;
     grid-template: repeat(4, 1fr) /  repeat(4, 1fr);
     margin-left: 550px;
 }
 
-#box > span {
-    border: 1px solid aqua;
+#box > .span {
+    border: 1px solid gray;
     padding: 4px;
     min-height: 100px;
     display: flex;
@@ -41,3 +42,9 @@ body
     border-radius: 30px;
     font-family: 'Permanent Marker', cursive; 
 }
+.span:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #fff;
+}
+
+
